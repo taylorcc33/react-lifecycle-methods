@@ -20,7 +20,7 @@ export default () => {
   return (
     <>
       <div>
-        <Header as="h3" style={{ marginTop: "30px" }}>
+        <Header as="h3" style={{ marginTop: "30px", marginBottom: "5px" }}>
           Manual Counter
         </Header>
       </div>
