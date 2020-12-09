@@ -7,7 +7,9 @@ import Nav from "./Nav";
 function App() {
   return (
     <Container>
-      <Header as="h1">React Lifecycle Examples</Header>
+      <Header as="h1" style={{ marginTop: "30px" }}>
+        React Lifecycle Examples
+      </Header>
       <Nav />
     </Container>
   );

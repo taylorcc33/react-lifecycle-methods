@@ -11,7 +11,7 @@ export default () => {
     if (autoCount <= 100) {
       setTimeout(() => {
         setAutoCount(autoCount + 10);
-      }, 1000);
+      }, 500);
     } else {
       setAutoCount(0);
     }
