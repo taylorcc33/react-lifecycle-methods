@@ -39,7 +39,12 @@ export default () => {
         </Statistic>
       </div>
       <div>
-        <Progress style={{ width: "400px" }} percent={autoCount} indicating />
+        <Progress
+          style={{ width: "400px" }}
+          percent={autoCount}
+          size="large"
+          indicating
+        />
       </div>
     </>
   );
