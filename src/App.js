@@ -2,6 +2,8 @@ import React from 'react';
 import Clock from "./classes/Clock.js";
 import Contacts from "./classes/Contacts.js";
 import ContactForm from "./classes/ContactForm.js";
+import Counter from "./Counter";
+import Nav from "./Nav";
 import { Header, Button, Container, Icon, Segment } from "semantic-ui-react";
 
 class App extends React.Component {
@@ -49,6 +51,12 @@ class App extends React.Component {
     const { showForm, showClock } = this.state;
     return (
       <>
+        <Container>
+          <Header as="h1" style={{ marginTop: "30px" }}>
+            React Lifecycle Examples
+          </Header>
+          <Nav />
+        </Container>
         <Container style={{ marginTop: "25px", }}>
           { showClock && <Clock /> }
           <Button onClick={this.toggleShowClock} color="purple">Toggle Clock</Button>
